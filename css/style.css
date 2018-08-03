@@ -1,0 +1,45 @@
+:root {
+  font-size: 62.5%;
+  --danger:#9b0d01; }
+
+.header {
+  background-image: linear-gradient(to right bottom, rgba(155, 13, 1, 0.8), rgba(194, 16, 46, 0.8)), url(../img/port.png);
+  background-size: cover;
+  background-position: top;
+  height: 85vh; }
+  .header__logo {
+    max-height: 15vh; }
+  .header__text--main {
+    font-size: 2.5rem;
+    font-weight: 500; }
+  .header__text--sub {
+    font-size: 1.7rem;
+    font-weight: 300; }
+  .header__btn {
+    color: #9c2422;
+    font-size: 1.5rem;
+    font-weight: 500; }
+
+.nav__container {
+  border-top: 1px solid white; }
+.nav-link {
+  font-size: 1.7rem;
+  font-weight: 500;
+  background-color: #9c2422;
+  color: #fff;
+  border: 1px solid white; }
+.nav-link:hover {
+  color: #9c2422;
+  background-color: #fff;
+  border: 1px solid #9c2422; }
+.nav-pills .nav-link.active {
+  border: 1px solid #9c2422;
+  background-color: #fff;
+  color: #9c2422; }
+.nav__text {
+  font-size: 1.7rem; }
+
+.footer {
+  background-image: linear-gradient(to right bottom, rgba(155, 13, 1, 0.8), rgba(194, 16, 46, 0.8)); }
+
+/*# sourceMappingURL=style.css.map */
